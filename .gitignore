@@ -1,0 +1,7 @@
+# KiCad session data, caches, and automatic backups
+*-backups/
+*.kicad_prl
+fp-info-cache
+*.lck
+*.bak
+*~
