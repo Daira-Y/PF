@@ -518,10 +518,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Compra/PF_PCB/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "PF_Contro_PCB.step",
       "svg": "",
       "vrml": ""
     },

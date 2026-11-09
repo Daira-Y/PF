@@ -136,9 +136,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Compra/PF_PCB/")
 		)
 	)
 	(net 0 "")
@@ -34459,8 +34459,8 @@
 			(justify right bottom mirror)
 		)
 	)
-	(gr_text "GND\n\nGND\n\nGND\n\nIO41\n\nIO39\n\nIO38\n\nIO48\n\nIO47\n\nIO18\n\nIO17\n\nIO16\n\n3.3V\n\n5V\n\n12V\n"
-		(at 208.43 94.14 90)
+	(gr_text "GND\n\nGND\n\nGND\n\nIO18\n\nIO17\n\nIO16\n\nIO47\n\nIO48\n\nIO38\n\nIO39\n\nIO41\n\n3.3V\n\n5V\n\n12V"
+		(at 208.51 94.28 90)
 		(layer "B.SilkS")
 		(uuid "7b245757-ea1f-4e15-a2df-79e227d6d76e")
 		(effects
@@ -34472,7 +34472,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "El paso mas importante que puede dar un hombre es el primero... \nSiempre es el primero"
+	(gr_text "El paso mas importante que puede dar un hombre es el proximo... \nSiempre es el proximo.\n\n-Dalinar Kholin, Juramentada (Brandon Sanderson)"
 		(at 245.86 141.55 0)
 		(layer "B.SilkS")
 		(uuid "d228d25f-166f-4450-b34b-58f33786c585")
@@ -48199,16 +48199,16 @@
 		(members "4a0976fb-5cdf-4249-9a69-ed215120ff60" "cae935cf-79d0-4ff2-9ed7-da419ff3a877")
 	)
 	(group ""
-		(uuid "499fc710-f097-49d0-9e97-fdd99948ca6b")
-		(members "541497fa-da33-4277-aff8-49705ecdb897" "7b245757-ea1f-4e15-a2df-79e227d6d76e")
-	)
-	(group ""
 		(uuid "4c66097c-5cf5-45c2-8eeb-702209b9df81")
 		(members "7a76edb7-1898-4dff-832d-436d223f259c" "d4f92be0-fcea-4404-8b1b-5a2946ba87a5")
 	)
 	(group ""
 		(uuid "d2eb1287-a239-4082-bb68-b4ff56c1e170")
 		(members "ae83ed86-04a9-485b-b125-63fc6e7c9350")
+	)
+	(group ""
+		(uuid "499fc710-f097-49d0-9e97-fdd99948ca6b")
+		(members "7b245757-ea1f-4e15-a2df-79e227d6d76e")
 	)
 	(embedded_fonts no)
 )
