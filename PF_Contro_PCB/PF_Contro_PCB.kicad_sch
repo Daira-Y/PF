@@ -6292,6 +6292,26 @@
 		)
 		(uuid "7235b000-d8a9-46a7-876b-9acc0e731c68")
 	)
+	(text_box "Controladores de potencia\n"
+		(exclude_from_sim no)
+		(at 190.5 139.7 0)
+		(size 317.5 121.92)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify bottom)
+		)
+		(uuid "82bd6227-a3e6-4d20-9aed-067282d3ed22")
+	)
 	(text_box "Sensor de ORP\n\n\n"
 		(exclude_from_sim no)
 		(at 201.93 17.78 0)
@@ -7810,7 +7830,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 201.93) (xy 384.81 201.93)
+			(xy 363.22 201.93) (xy 384.81 201.93)
 		)
 		(stroke
 			(width 0)
@@ -7820,7 +7840,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 196.85) (xy 384.81 196.85)
+			(xy 363.22 196.85) (xy 384.81 196.85)
 		)
 		(stroke
 			(width 0)
@@ -11930,7 +11950,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 187.96) (xy 377.19 187.96)
+			(xy 361.95 187.96) (xy 377.19 187.96)
 		)
 		(stroke
 			(width 0)
@@ -12800,7 +12820,7 @@
 	)
 	(global_label "ACT3"
 		(shape input)
-		(at 351.79 196.85 180)
+		(at 363.22 196.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12810,7 +12830,7 @@
 		)
 		(uuid "0ed08437-5118-4774-8c76-b025836aa6b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 344.2691 196.85 0)
+			(at 355.6991 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13438,7 +13458,7 @@
 	)
 	(global_label "ACT_EN"
 		(shape input)
-		(at 350.52 187.96 180)
+		(at 361.95 187.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13448,7 +13468,7 @@
 		)
 		(uuid "55534b6c-aff1-4703-a748-442294536ca4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 340.7615 187.96 0)
+			(at 352.1915 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14692,7 +14712,7 @@
 	)
 	(global_label "ACT4"
 		(shape input)
-		(at 351.79 201.93 180)
+		(at 363.22 201.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14702,7 +14722,7 @@
 		)
 		(uuid "cbb3ed21-a923-4522-8d0d-589788965d06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 344.2691 201.93 0)
+			(at 355.6991 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25699,7 +25719,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a6ecd79f-0fd2-48d9-8b52-21e25b5152b8")
 		(property "Reference" "L2"
 			(at 198.12 293.37 0)

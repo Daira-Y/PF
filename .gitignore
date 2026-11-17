@@ -5,3 +5,6 @@ fp-info-cache
 *.lck
 *.bak
 *~
+
+# Windows shell metadata
+desktop.ini
